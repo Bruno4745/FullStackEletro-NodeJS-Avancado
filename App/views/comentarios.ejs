@@ -1,0 +1,18 @@
+<!-- Pagina de teste, está sem uso pq nao funciona ao mesmo tempo com o react
+ejs instalado mas sem uso tambem 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostrar Comentarios</title>
+</head>
+<body>
+    <h1>Comentarios enviados</h1>
+    <% for(i=0; i<dados.length; i++){%>
+        <p><%=dados[i].nome%> | <%=dados[i].mensagem%></p>
+    <% } %>
+</body>
+</html>
