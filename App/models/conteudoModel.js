@@ -5,12 +5,12 @@ module.exports = function(){
         //View 'mostra_produto_categoria' faz SELECT com INNER JOIN entre duas tabelas 'produto' e 'categoria'.
     }
 
-    this.getComentarios = function(connection, callback){
-        connection.query("SELECT * FROM comentario", callback);
-    }
-    this.inserirComentarios = function(conteudo, connection, callback){
-        connection.query("INSERT INTO comentario SET ?", conteudo);
-    }
+    // this.getComentarios = function(connection, callback){
+    //     connection.query("SELECT * FROM comentario", callback);
+    // }
+    // this.inserirComentarios = function(conteudo, connection, callback){
+    //     connection.query("INSERT INTO comentario SET ?", conteudo);
+    // }
 
     this.getPedidos = function(connection, callback){
         connection.query("SELECT * FROM pedidos", callback);
